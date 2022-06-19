@@ -1,0 +1,93 @@
+body{
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+}
+
+.box{
+    margin: 10px;
+    width: 350px;
+    background-color: white;
+}
+
+.box img{
+    width: 100%;
+}
+
+.box h2{
+    text-align: center;
+}
+
+.box p{
+    padding: 10px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+span{
+    display: block;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.old_price{
+    color: red;
+    font-size: 22px;
+}
+
+.new_price{
+    color: green;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+header{
+    background-color: white;
+    width: auto;
+    padding: auto;
+}
+
+#menu{
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+#menu li{
+    float: center;
+}
+
+#menu li a{
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#btt_link a{
+    text-decoration: auto;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+footer{
+    text-align: center;
+    background-color: white;
+    width: auto;
+    padding: auto;
+    margin-left: auto;
+}
